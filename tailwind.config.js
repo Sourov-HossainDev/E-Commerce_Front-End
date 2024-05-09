@@ -13,6 +13,10 @@ export default {
       },
       fontFamily : {
         DMsans : ["DM Sans", "sans-serif"]
+      },
+      colors :{
+        primary : '#262626',
+        
       }
     },
   },
