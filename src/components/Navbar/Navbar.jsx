@@ -1,16 +1,17 @@
 import React from 'react'
 import oribiLogo from '../../assets/Image/Logo.png'
 import Flex from './Flex/Flex'
+import Container from '../Lay/Container'
 
 const Navbar = () => {
     return (
-        <nav className='max-w-container mx-auto'>
+        <Container>
             <div className=' py-8'>
 
                 {/* <div className='flex items-center '>
-                    
+    
 
-                </div> */}
+</div> */}
                 <Flex className='items-center'>
                     <div className='w-3/12'>
                         <img src={oribiLogo} alt="" />
@@ -18,7 +19,6 @@ const Navbar = () => {
                     </div>
                     <div className='w-9/12'>
                         <ul className='flex justify-end gap-x-20 text-[#767676] font-DMsans font-bold  '>
-                            <li className='cursor-pointer hover:text-primary '>Home</li>
                             <li className='cursor-pointer hover:text-primary'>Home</li>
                             <li className='cursor-pointer hover:text-primary'>Shop</li>
                             <li className='cursor-pointer hover:text-primary'>About</li>
@@ -29,8 +29,10 @@ const Navbar = () => {
                     </div>
                 </Flex>
             </div>
+        </Container>
+            
 
-        </nav>
+      
     )
 }
 
